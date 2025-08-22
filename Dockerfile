@@ -1,6 +1,6 @@
 FROM node:20
 
-WORKDIR server.js
+WORKDIR . .
 
 COPY package*.json ./
 RUN npm install
